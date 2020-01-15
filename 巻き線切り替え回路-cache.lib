@@ -1,0 +1,198 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Kageyama_Device_0-143287-1
+#
+DEF Kageyama_Device_0-143287-1 relay 0 40 Y Y 1 F N
+F0 "relay" 590 449 50 H V C CNN
+F1 "Kageyama_Device_0-143287-1" 590 399 50 H V C CNN
+F2 "Kageyama_Device:0-1432871-1" 590 449 50 H I C CNN
+F3 "" 590 449 50 H I C CNN
+DRAW
+S 0 0 1050 -1050 0 0 0 N
+S 250 -400 250 150 0 0 0 N
+S 800 -400 850 -400 0 0 0 N
+S 850 -400 850 150 0 0 0 N
+P 2 0 0 0 700 -550 700 -550 N
+P 2 0 0 0 700 -500 700 -1150 N
+P 2 0 0 0 700 -500 850 -350 N
+P 3 0 0 0 650 -400 600 -400 600 150 N
+P 2 0 1 0 100 -400 378 -598 N
+P 2 0 1 0 250 -600 250 -1200 N
+P 2 0 1 0 378 -520 416 -520 N
+P 2 0 1 0 494 -520 446 -520 N
+P 2 0 1 0 594 -520 540 -520 N
+P 2 0 1 0 700 -520 632 -520 N
+P 5 0 1 0 380 -400 380 -600 100 -600 100 -400 378 -400 N
+X ~ 30 700 -1200 100 U 50 50 1 1 P
+X ~ 85 250 150 100 D 50 50 1 1 P
+X ~ 86 250 -1200 100 U 50 50 1 1 I
+X ~ 87 600 150 100 D 50 50 1 1 P
+X ~ 87a 850 150 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_Diode
+#
+DEF Kageyama_Device_Diode D 0 40 Y Y 1 F N
+F0 "D" 0 0 50 H V C CNN
+F1 "Kageyama_Device_Diode" 0 -50 50 H V C CNN
+F2 "Kageyama_Device:Diode" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 1 0 75 -150 75 -350 N
+P 3 1 1 0 -75 -150 -75 -350 75 -250 F
+X K 1 -200 -250 150 R 50 50 1 1 I
+X A 2 200 -250 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_IRLU024N
+#
+DEF Kageyama_Device_IRLU024N U 0 40 N N 1 F N
+F0 "U" -350 100 50 H V L BNN
+F1 "Kageyama_Device_IRLU024N" -350 0 50 H V L BNN
+F2 "Kageyama_Device:IRLU024N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Infineon Technologies" 0 0 50 H I L BNN
+F5 "TO-251 Infineon Technologies" 0 0 50 H I L BNN
+F6 "None" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "55V Single N-Channel HEXFET Power MOSFET in a I-Pak package" 0 0 50 H I L BNN
+DRAW
+C 200 -100 14 0 0 0 N
+C 200 100 14 0 0 0 N
+P 2 0 0 6 0 -100 52 -100 N
+P 2 0 0 10 55 100 55 -100 N
+P 2 0 0 10 100 -100 100 -145 N
+P 2 0 0 10 100 -55 100 -100 N
+P 2 0 0 10 100 0 100 -30 N
+P 2 0 0 6 100 0 200 0 N
+P 2 0 0 10 100 30 100 0 N
+P 2 0 0 10 100 100 100 55 N
+P 2 0 0 6 100 100 300 100 N
+P 2 0 0 10 100 145 100 100 N
+P 2 0 0 6 200 -100 100 -100 N
+P 2 0 0 6 200 -100 300 -100 N
+P 2 0 0 6 200 0 200 -100 N
+P 2 0 0 6 300 20 280 20 N
+P 2 0 0 6 300 20 300 -100 N
+P 2 0 0 6 300 100 300 20 N
+P 2 0 0 6 320 20 300 20 N
+P 3 0 0 6 110 0 150 30 150 -30 F
+P 3 0 0 6 300 20 280 -10 320 -10 F
+X G 1 -100 -100 100 R 40 40 0 0 P
+X D 2 200 300 200 D 40 40 0 0 P
+X S 3 200 -300 200 U 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_OUTPUT
+#
+DEF Kageyama_Device_OUTPUT mc 0 40 Y Y 1 F N
+F0 "mc" 0 0 50 H V C CNN
+F1 "Kageyama_Device_OUTPUT" 0 50 50 H V C CNN
+F2 "Kageyama_Device:OUTPUT" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -100 50 0 1 0 N
+X ~ 1 0 -250 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_PowerSource
+#
+DEF Kageyama_Device_PowerSource power 0 40 Y Y 1 F N
+F0 "power" 0 0 50 H V C CNN
+F1 "Kageyama_Device_PowerSource" 0 -100 50 H V C CNN
+F2 "Kageyama_Device:PowerSource" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -200 50 0 1 0 N
+X ~ 1 0 -350 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_R
+#
+DEF Kageyama_Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Kageyama_Device_R" 0 0 50 V V C CNN
+F2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_U
+#
+DEF Kageyama_Device_U IOhole 0 40 Y Y 1 F N
+F0 "IOhole" 0 -100 50 H V C CNN
+F1 "Kageyama_Device_U" 0 0 50 H V C CNN
+F2 "Kageyama_Device:U" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -400 50 0 0 0 N
+X ~ 1 0 -250 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_V
+#
+DEF Kageyama_Device_V IOhole 0 40 Y Y 1 F N
+F0 "IOhole" 0 0 50 H V C CNN
+F1 "Kageyama_Device_V" 0 100 50 H V C CNN
+F2 "Kageyama_Device:V" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -300 50 0 1 0 N
+X ~ 1 0 -150 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_V+
+#
+DEF Kageyama_Device_V+ power 0 40 Y Y 1 F N
+F0 "power" -158 72 50 H V C CNN
+F1 "Kageyama_Device_V+" -160 6 50 H V C CNN
+F2 "Kageyama_Device:V+" -150 0 50 H I C CNN
+F3 "" -150 0 50 H I C CNN
+DRAW
+C -150 -150 50 0 1 0 N
+X ~ 1 -150 -300 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_V-
+#
+DEF Kageyama_Device_V- power 0 40 Y Y 1 F N
+F0 "power" 0 0 50 H V C CNN
+F1 "Kageyama_Device_V-" 0 50 50 H V C CNN
+F2 "Kageyama_Device:V-" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -150 50 1 1 0 N
+X ~ 1 0 -300 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Kageyama_Device_W
+#
+DEF Kageyama_Device_W IOhole 0 40 Y Y 1 F N
+F0 "IOhole" 0 -100 50 H V C CNN
+F1 "Kageyama_Device_W" 0 0 50 H V C CNN
+F2 "Kageyama_Device:W" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -400 50 0 0 0 N
+X ~ 1 0 -250 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

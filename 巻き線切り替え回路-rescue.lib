@@ -1,0 +1,74 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0-143287-1-Kageyama_Device
+#
+DEF 0-143287-1-Kageyama_Device relay 0 40 Y Y 1 F N
+F0 "relay" 590 449 50 H V C CNN
+F1 "0-143287-1-Kageyama_Device" 590 399 50 H V C CNN
+F2 "Kageyama_Device:0-1432871-1" 590 449 50 H I C CNN
+F3 "" 590 449 50 H I C CNN
+DRAW
+S 0 0 1050 -1050 0 0 0 N
+S 250 -600 250 -1150 0 0 0 N
+S 250 -400 250 150 0 0 0 N
+S 800 -400 850 -400 0 0 0 N
+S 850 -400 850 150 0 0 0 N
+P 2 0 0 0 700 -550 700 -550 N
+P 2 0 0 0 700 -500 700 -1150 N
+P 2 0 0 0 700 -500 850 -350 N
+P 3 0 0 0 650 -400 600 -400 600 150 N
+P 2 0 1 0 100 -400 378 -598 N
+P 2 0 1 0 378 -520 416 -520 N
+P 2 0 1 0 494 -520 446 -520 N
+P 2 0 1 0 594 -520 540 -520 N
+P 2 0 1 0 700 -520 632 -520 N
+P 5 0 1 0 380 -400 380 -600 100 -600 100 -400 378 -400 N
+X ~ 30 700 -1150 100 U 50 50 1 1 P
+X ~ 85 250 150 100 D 50 50 1 1 P
+X ~ 86 250 -1150 100 U 50 50 1 1 P
+X ~ 87 600 150 100 D 50 50 1 1 P
+X ~ 87a 850 150 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IOhole
+#
+DEF IOhole v 0 40 Y Y 1 F N
+F0 "v" 0 0 50 H V C CNN
+F1 "IOhole" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -400 50 0 1 0 N
+X ~ ~ 0 -250 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# U-Kageyama_Device
+#
+DEF U-Kageyama_Device IOhole 0 40 Y Y 1 F N
+F0 "IOhole" 0 -100 50 H V C CNN
+F1 "U-Kageyama_Device" 0 0 50 H V C CNN
+F2 "Kageyama_Device:IOhole" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 -400 50 0 0 0 N
+X ~ ~ 0 -250 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# V+-Kageyama_Device
+#
+DEF V+-Kageyama_Device power 0 40 Y Y 1 F N
+F0 "power" -158 72 50 H V C CNN
+F1 "V+-Kageyama_Device" -160 6 50 H V C CNN
+F2 "Kageyama_Device:V+" -150 0 50 H I C CNN
+F3 "" -150 0 50 H I C CNN
+DRAW
+C -150 -100 50 0 0 0 N
+X ~ ~ -150 -250 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
