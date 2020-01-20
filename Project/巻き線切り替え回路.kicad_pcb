@@ -62,7 +62,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x210fc_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "巻き線切り替え回路ガーバ・ドリルデータ(完成)"))
+      (outputdirectory "../../PCB/ガーバ・ドリルデータ/"))
   )
 
   (net 0 "")
@@ -443,7 +443,7 @@
     (fp_text reference REF1 (at 7.62 5.588) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_6.4mm_M6_Pad (at 0 7.4) (layer F.Fab)
+    (fp_text value MountingHole_6.4mm_M6_Pad (at 6.858 8.89) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 6.65 0) (layer F.CrtYd) (width 0.05))
